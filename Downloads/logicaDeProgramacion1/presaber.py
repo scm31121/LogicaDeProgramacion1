@@ -1,11 +1,11 @@
-#Se piden datos al usurio
+#ask data from user
 base = float(input("ingrese la base del cuadrado: "))
 altura= float(input("ingrese la altura del cuadrado: "))
 
-#funcion para calcular el area
+#function to calculate area
 def calcularArea(base,altura):
     altura = (base * altura)/2
     return altura
 
-#se retorna al usuario el resultado despues de procesarse
+#returns result to user
 print("el área del cuadrado es: ", calcularArea(base,altura))
